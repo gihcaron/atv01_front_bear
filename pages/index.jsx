@@ -6,7 +6,7 @@ import Footer from "../components/footer";
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Header></Header>
+      <Header />
 
       <main className={styles.main}>
         <div className={styles.box_container}>
@@ -33,7 +33,7 @@ export default function Home() {
 
 
 
-      <Footer></Footer>
-    </div>
+      <Footer />
+          </div>
   );
 }
