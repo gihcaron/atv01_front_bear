@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Header />
+
       <main className={styles.main}>
         <div className={styles.box_container}>
           <Card

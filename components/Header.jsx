@@ -2,9 +2,8 @@ import styles from '../styles/Header.module.css'
 
 export default function Header(){      
     return (
-        <header className={styles.header}>
-        <h1 className={styles.title}>Share bear
-        </h1>
+        <div className={styles.header}>
+        <h1 className={styles.title}>Share bear</h1>
         {/* <nav className={styles.nav}>
                 <ul>
                     <li><a href="#home">Home</a></li>
@@ -13,7 +12,7 @@ export default function Header(){
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav> */}
-        </header>
+        </div>
 
     );
 }
