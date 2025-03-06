@@ -1,7 +1,7 @@
 .container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     background-color:rgb(218, 218, 218);
 }
 
@@ -23,14 +23,13 @@
     height: 100%;
     width: 45%;
     padding: 1.5vh;
-    margin-top: 15%;
 }
 
 .box{
     background-color: #7b4695;
     border-radius: 10px;
     width: 96%;
-    /* margin: 5% 2% 4%  ; */
+
 }
 
 .box_text{
@@ -67,33 +66,37 @@
 /* Responsividade */
 
 @media (max-width: 768px){
-    .container{
-        height: 100vh;
+    .container {
+        height: auto;
+        padding: 10px;
     }
 
-    .main{
+    .main {
         flex-direction: column;
-        height: 100%;
+        height: auto;
+        padding: 10px;
     }
 
-    .box_container{
+    .box_container {
         width: 100%;
-        margin-top: 0;
+        margin-top: 10px;
+        padding: 10px;
     }
 
-    .box{
-        height: 30%;
+    .box {
+        height: auto;
+        margin: 10px 0;
     }
 
-    .aside{
+    .aside {
         width: 100%;
+        margin-top: 10px;
     }
 
-    .ursinho{
+    .ursinho {
         width: 100%;
     }
 }
-
 @media (max-width: 425px){
     .box_text{
         font-size: 1.2em;
