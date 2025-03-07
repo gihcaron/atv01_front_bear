@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto ATV01 Front Bear 🐻💜
 
-## Getting Started
+## Descrição 🐻
 
-First, run the development server:
+Este projeto tem como propósito desenvolver habilidades no Next.js e na responsividade de telas. Para isso, foi desenvolvido um site do ursinho carinhoso "Share Bear", um personagem amigável que marcou a infância de muitas crianças dos anos 2000. 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💫 | Tecnologias Utilizadas
+- Next.js
+- Estilização Responsiva
+- Uso de Componentes
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 | Como Executar o Projeto
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/gihcaron/atv01_front_bear.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd atv01_front_bear
+    ```
+3. Instale as dependências:
+    ```bash
+    npm install
+    ```
+4. Execute o projeto:
+    ```bash
+    npm run dev
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖥️ | Acesse o  meu projeto pelo Vercel!
 
-## Learn More
+Veja meu projeto através do link para o Vercel:
 
-To learn more about Next.js, take a look at the following resources:
+https://atv01-front-bear-wqmp.vercel.app/
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ⚒️ | Funcionalidades
 
-## Deploy on Vercel
+- Desenvolvimento de interfaces responsivas
+- Utilização do framework Next.js
+- Estilização com CSS
+- Uso de componentes para o desenvolvimento da página
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Responsividade
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#### Tela para dispositivos móveis - Tela de 360px
+![Responsividade](/public/Responsividade%20Prints/image%20(1).png)
+
+#### Tela para dispositivos móveis - Tela de 425px
+
+![Responsividade](/public/Responsividade%20Prints/image.png)
+
+#### Tela para dispositivos móveis - Tela de 768px
+
+![Responsividade](/public/Responsividade%20Prints/ipad.jpg)
+
+#### Tela para dispositivos móveis - Tela de 1024px
+
+![Responsividade](/public/Responsividade%20Prints/computador.jpg)
+
+## 👩🏻‍💻 | Contato
+
+Para mais informações, entre em contato pelo meu email: [giovanna.c.barros@aluno.senai.br](giovanna.c.barros@aluno.senai.br).
